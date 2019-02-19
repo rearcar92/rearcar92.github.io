@@ -1,4 +1,5 @@
-<nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
+<!-- <nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}"> -->
+<nav class="nav">
     <ul class="list">
         {% if page.title != "Home" %}
             <li class="item">
@@ -30,10 +31,13 @@
             {% endif %}
         {% endif %}
 
-        {% if site.resume == true %}
+        <!-- {% if site.resume == true %}
             <li class="item">
                 <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">Résumé</a>
             </li>
-        {% endif %}
+        {% endif %} -->
     </ul>
+
+    {% include social-links.html %}
+
 </nav>
