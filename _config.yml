@@ -16,8 +16,8 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: http://rearcar92.github.io
-# your url: http://rearcar92.github.io
+url: https://rearcar92.github.io
+# your url: https://rearcar92.github.io
 
 permalink: /:title/
 
