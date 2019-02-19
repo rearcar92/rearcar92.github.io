@@ -30,8 +30,9 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: carrear # enter this from your disqus account
+  shortname: rearcar92 # enter this from your disqus account
   categories: [blog, project] # only show disqus for posts that have these categories
+disqus_id: rearcar92
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
@@ -54,7 +55,7 @@ github: rearcar92
 email: rearcar92@gmail.com
 
 authors:
-    rearcar92:
+    johndoe:
         name: Sang Cheol
         bio: hello
         external-image: false
