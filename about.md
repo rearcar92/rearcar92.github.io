@@ -17,5 +17,5 @@ layout: page
 <h2>Projects</h2>
 
 <ul>
-	<li><a></></li>
+	<li><a></a></li>
 </ul>
